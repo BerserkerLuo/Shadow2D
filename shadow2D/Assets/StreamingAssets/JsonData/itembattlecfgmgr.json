@@ -1,0 +1,145 @@
+[
+  {
+    "id": 1,
+    "quality": 1,
+    "ItemType": 1,
+    "Value1": 0,
+    "Value2": 0,
+    "name": "金币",
+    "prefab": "",
+    "icon": "TextureRes\\Item\\Coin",
+    "desc": ""
+  },
+  {
+    "id": 100,
+    "quality": 1,
+    "ItemType": 1,
+    "Value1": 1,
+    "Value2": 0,
+    "name": "小经验",
+    "prefab": "Exp",
+    "icon": "TextureRes\\Item\\Exp",
+    "desc": ""
+  },
+  {
+    "id": 101,
+    "quality": 1,
+    "ItemType": 2,
+    "Value1": 1,
+    "Value2": 0,
+    "name": "小金币",
+    "prefab": "Gold",
+    "icon": "TextureRes\\Item\\Coin",
+    "desc": ""
+  },
+  {
+    "id": 3001,
+    "quality": 2,
+    "ItemType": 3,
+    "Value1": 1010,
+    "Value2": 0,
+    "name": "小蜜蜂",
+    "prefab": "",
+    "icon": "",
+    "desc": ""
+  },
+  {
+    "id": 3002,
+    "quality": 2,
+    "ItemType": 3,
+    "Value1": 1020,
+    "Value2": 0,
+    "name": "旋转飞刀",
+    "prefab": "",
+    "icon": "",
+    "desc": ""
+  },
+  {
+    "id": 3003,
+    "quality": 2,
+    "ItemType": 3,
+    "Value1": 1030,
+    "Value2": 0,
+    "name": "箭塔",
+    "prefab": "",
+    "icon": "",
+    "desc": ""
+  },
+  {
+    "id": 4001,
+    "quality": 2,
+    "ItemType": 4,
+    "Value1": 1,
+    "Value2": 0,
+    "name": "弹匣升级",
+    "prefab": "",
+    "icon": "",
+    "desc": ""
+  },
+  {
+    "id": 4002,
+    "quality": 2,
+    "ItemType": 4,
+    "Value1": 2,
+    "Value2": 0,
+    "name": "火力升级",
+    "prefab": "",
+    "icon": "",
+    "desc": ""
+  },
+  {
+    "id": 4003,
+    "quality": 2,
+    "ItemType": 4,
+    "Value1": 3,
+    "Value2": 0,
+    "name": "简化弹匣",
+    "prefab": "",
+    "icon": "",
+    "desc": ""
+  },
+  {
+    "id": 4004,
+    "quality": 2,
+    "ItemType": 4,
+    "Value1": 4,
+    "Value2": 0,
+    "name": "射速升级",
+    "prefab": "",
+    "icon": "",
+    "desc": ""
+  },
+  {
+    "id": 4005,
+    "quality": 2,
+    "ItemType": 4,
+    "Value1": 5,
+    "Value2": 0,
+    "name": "8倍镜",
+    "prefab": "",
+    "icon": "",
+    "desc": ""
+  },
+  {
+    "id": 4006,
+    "quality": 2,
+    "ItemType": 4,
+    "Value1": 100,
+    "Value2": 0,
+    "name": "吸星大法",
+    "prefab": "",
+    "icon": "",
+    "desc": ""
+  },
+  {
+    "id": 5001,
+    "quality": 2,
+    "ItemType": 5,
+    "Value1": 40,
+    "Value2": 0,
+    "name": "恢复",
+    "prefab": "",
+    "icon": "",
+    "desc": ""
+  }
+]

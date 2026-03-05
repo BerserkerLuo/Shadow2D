@@ -1,0 +1,36 @@
+[
+  {
+    "id": 100,
+    "name": "金币",
+    "quality": 1,
+    "ItemType": 1,
+    "SubType": 0,
+    "Str": 0,
+    "Int": 0,
+    "Agi": 0,
+    "Phy": 0,
+    "Spi": 0,
+    "Luck": 0,
+    "skillId": 0,
+    "icon": "TextureRes\\Item\\Coin",
+    "prefab": "Gold",
+    "desc": ""
+  },
+  {
+    "id": 101,
+    "name": "经验",
+    "quality": 1,
+    "ItemType": 2,
+    "SubType": 0,
+    "Str": 0,
+    "Int": 0,
+    "Agi": 0,
+    "Phy": 0,
+    "Spi": 0,
+    "Luck": 0,
+    "skillId": 0,
+    "icon": "TextureRes\\Item\\Exp",
+    "prefab": "Exp",
+    "desc": ""
+  }
+]

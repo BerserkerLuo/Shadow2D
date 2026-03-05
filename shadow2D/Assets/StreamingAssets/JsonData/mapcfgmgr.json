@@ -1,0 +1,18 @@
+[
+  {
+    "id": 100,
+    "MapName": "丧尸草原",
+    "MapScene": "Map2",
+    "Script": "Map100",
+    "Icon": "",
+    "MapDescribe": ""
+  },
+  {
+    "id": 200,
+    "MapName": "丧尸城市",
+    "MapScene": "Map2",
+    "Script": "Map100",
+    "Icon": "",
+    "MapDescribe": ""
+  }
+]

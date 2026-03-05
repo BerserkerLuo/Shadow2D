@@ -1,0 +1,53 @@
+[
+  {
+    "ID": 1,
+    "name": "手枪",
+    "Active": true,
+    "skill": 30,
+    "UnLock": 0,
+    "Damage": 10,
+    "Crit": 0,
+    "Penetrate": 0,
+    "Catapult": 0,
+    "ShotNum": 1,
+    "BulletNum": 5,
+    "Avatar": "Weapon1",
+    "UIAvatar": "Prefabs\\Weapon\\UIAvatar\\W1",
+    "WeaponSet": "Prefabs\\Weapon\\WeaponCfg\\W1",
+    "Description": "面对Boss和精英时伤害翻倍"
+  },
+  {
+    "ID": 2,
+    "name": "弓",
+    "Active": true,
+    "skill": 20,
+    "UnLock": 100,
+    "Damage": 8,
+    "Crit": 0,
+    "Penetrate": 1,
+    "Catapult": 0,
+    "ShotNum": 1,
+    "BulletNum": 3,
+    "Avatar": "Weapon2",
+    "UIAvatar": "Prefabs\\Weapon\\UIAvatar\\W2",
+    "WeaponSet": "Prefabs\\Weapon\\WeaponCfg\\W2",
+    "Description": "子弹可以穿透一个单位"
+  },
+  {
+    "ID": 3,
+    "name": "霰弹枪",
+    "Active": true,
+    "skill": 30,
+    "UnLock": 200,
+    "Damage": 10,
+    "Crit": 0,
+    "Penetrate": 0,
+    "Catapult": 0,
+    "ShotNum": 3,
+    "BulletNum": 3,
+    "Avatar": "Weapon3",
+    "UIAvatar": "Prefabs\\Weapon\\UIAvatar\\W3",
+    "WeaponSet": "Prefabs\\Weapon\\WeaponCfg\\W3",
+    "Description": "一次发射三颗子弹"
+  }
+]

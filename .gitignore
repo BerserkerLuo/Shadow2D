@@ -1,0 +1,6 @@
+/shadow2D/Library
+*.xlsx
+/shadow2D/UserSettings
+/shadow2D/Logs
+*.csproj
+/shadow2D/.vs

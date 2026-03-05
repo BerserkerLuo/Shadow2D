@@ -1,0 +1,124 @@
+{
+    "EventList": [
+        {
+            "Id": 1,
+            "StartId": 1,
+            "Name": "",
+            "Desc": "",
+            "r": 224,
+            "g": 122,
+            "b": 95
+        }
+    ],
+    "NodeList": [
+        {
+            "Id": 1,
+            "eventId": 1,
+            "weight": 100,
+            "Title": "",
+            "Text": "昏黄的天空下,废弃的街道上飘着残破的报纸和塑料袋,破碎的护栏、电线杆倾倒,街道尽头可以隐约看见高楼林立的城市废墟.\n轮回小队一个个从地上缓缓爬起,身上的尘土似乎来自一场空间裂隙的坠落.脚下是一间破旧加油站的空地,背后是主神的能量护罩缓慢收缩.\n「副本开启：丧尸之城」\n「主线任务：救出林然(1000积分)」\n",
+            "GoList": [
+                2,
+                3
+            ],
+            "GoType": 1,
+            "EnemyList": [],
+            "RewardList": [],
+            "ULEIdList": [],
+            "IsEnd": false,
+            "isEventEnd": false,
+            "pos": {
+                "x": 745.0,
+                "y": -9.0
+            }
+        },
+        {
+            "Id": 2,
+            "eventId": 1,
+            "weight": 100,
+            "Title": "探索加油站",
+            "Text": "加油站主楼大门上贴着封条[已感染]!",
+            "GoList": [
+                4
+            ],
+            "GoType": 0,
+            "EnemyList": [],
+            "RewardList": [],
+            "ULEIdList": [],
+            "IsEnd": false,
+            "isEventEnd": false,
+            "pos": {
+                "x": 649.0,
+                "y": 266.0
+            }
+        },
+        {
+            "Id": 3,
+            "eventId": 1,
+            "weight": 100,
+            "Title": "探索周边",
+            "Text": "街道周边有一些上锁的房子,也许应该探索一下.",
+            "GoList": [],
+            "GoType": 0,
+            "EnemyList": [],
+            "RewardList": [],
+            "ULEIdList": [],
+            "IsEnd": false,
+            "isEventEnd": false,
+            "pos": {
+                "x": 841.0,
+                "y": 266.0
+            }
+        },
+        {
+            "Id": 4,
+            "eventId": 1,
+            "weight": 100,
+            "Title": "",
+            "Text": "轮回者们打开封锁大门的一瞬间,几只丧尸就冲了出来.",
+            "GoList": [
+                5
+            ],
+            "GoType": 0,
+            "EnemyList": [
+                {
+                    "Key": 11000,
+                    "Value": 3,
+                    "value2": 100
+                }
+            ],
+            "RewardList": [],
+            "ULEIdList": [],
+            "IsEnd": false,
+            "isEventEnd": false,
+            "pos": {
+                "x": 649.0,
+                "y": 375.0
+            }
+        },
+        {
+            "Id": 5,
+            "eventId": 1,
+            "weight": 100,
+            "Title": "",
+            "Text": "战胜3只丧尸后,探索了房间,发现了一把消防斧.",
+            "GoList": [],
+            "GoType": 0,
+            "EnemyList": [],
+            "RewardList": [
+                {
+                    "Key": 22004,
+                    "Value": 1,
+                    "value2": 100
+                }
+            ],
+            "ULEIdList": [],
+            "IsEnd": false,
+            "isEventEnd": false,
+            "pos": {
+                "x": 649.0,
+                "y": 499.0
+            }
+        }
+    ]
+}

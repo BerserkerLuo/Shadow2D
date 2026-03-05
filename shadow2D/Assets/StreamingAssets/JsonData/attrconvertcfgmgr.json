@@ -1,0 +1,152 @@
+[
+  {
+    "index": 1,
+    "ProfId": 0,
+    "Lv1Attr": "1",
+    "ConvertMap": [
+      [
+        "Atk",
+        0.9
+      ],
+      [
+        "Def",
+        0.1
+      ],
+      [
+        "DefPe",
+        0.002
+      ]
+    ]
+  },
+  {
+    "index": 2,
+    "ProfId": 0,
+    "Lv1Attr": "2",
+    "ConvertMap": [
+      [
+        "MP",
+        0.2
+      ],
+      [
+        "MPRec",
+        0.02
+      ],
+      [
+        "Megic",
+        1
+      ],
+      [
+        "MDefPe",
+        0.003
+      ],
+      [
+        "CDReduce",
+        0.001
+      ]
+    ]
+  },
+  {
+    "index": 3,
+    "ProfId": 0,
+    "Lv1Attr": "3",
+    "ConvertMap": [
+      [
+        "Atk",
+        0.03
+      ],
+      [
+        "DefPe",
+        0.001
+      ],
+      [
+        "Crit",
+        0.0005
+      ],
+      [
+        "AtkSpeed",
+        0.001
+      ]
+    ]
+  },
+  {
+    "index": 4,
+    "ProfId": 0,
+    "Lv1Attr": "4",
+    "ConvertMap": [
+      [
+        "HP",
+        5
+      ],
+      [
+        "HPRec",
+        0.1
+      ],
+      [
+        "Def",
+        0.4
+      ],
+      [
+        "MegDef",
+        0.2
+      ],
+      [
+        "CritDef",
+        0.0003
+      ]
+    ]
+  },
+  {
+    "index": 5,
+    "ProfId": 0,
+    "Lv1Attr": "5",
+    "ConvertMap": [
+      [
+        "HP",
+        1
+      ],
+      [
+        "HPRec",
+        0.05
+      ],
+      [
+        "MP",
+        1
+      ],
+      [
+        "MPRec",
+        0.15
+      ],
+      [
+        "Megic",
+        0.2
+      ],
+      [
+        "MegDef",
+        0.5
+      ],
+      [
+        "MDefPe",
+        0.001
+      ],
+      [
+        "CDReduce",
+        0.0005
+      ]
+    ]
+  },
+  {
+    "index": 6,
+    "ProfId": 0,
+    "Lv1Attr": "6",
+    "ConvertMap": [
+      [
+        "Crit",
+        0.001
+      ],
+      [
+        "CritDef",
+        0.0006
+      ]
+    ]
+  }
+]

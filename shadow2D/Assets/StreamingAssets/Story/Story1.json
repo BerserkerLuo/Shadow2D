@@ -1,0 +1,1635 @@
+{
+    "EventList": [
+        {
+            "Id": 1,
+            "StartId": 1,
+            "Name": "百货大楼开局",
+            "Desc": "",
+            "r": 78,
+            "g": 113,
+            "b": 255
+        },
+        {
+            "Id": 2,
+            "StartId": 25,
+            "Name": "城市边缘开局",
+            "Desc": "",
+            "r": 27,
+            "g": 77,
+            "b": 62
+        },
+        {
+            "Id": 3,
+            "StartId": 11,
+            "Name": "离开方式",
+            "Desc": "",
+            "r": 78,
+            "g": 113,
+            "b": 255
+        },
+        {
+            "Id": 4,
+            "StartId": 18,
+            "Name": "直接离开",
+            "Desc": "",
+            "r": 78,
+            "g": 113,
+            "b": 255
+        },
+        {
+            "Id": 5,
+            "StartId": 0,
+            "Name": "调查附近",
+            "Desc": "",
+            "r": 61,
+            "g": 54,
+            "b": 92
+        },
+        {
+            "Id": 6,
+            "StartId": 0,
+            "Name": "幸存者营地",
+            "Desc": "",
+            "r": 61,
+            "g": 54,
+            "b": 92
+        },
+        {
+            "Id": 7,
+            "StartId": 0,
+            "Name": "警局",
+            "Desc": "",
+            "r": 78,
+            "g": 113,
+            "b": 255
+        },
+        {
+            "Id": 8,
+            "StartId": 0,
+            "Name": "神秘来电",
+            "Desc": "",
+            "r": 61,
+            "g": 54,
+            "b": 92
+        },
+        {
+            "Id": 9,
+            "StartId": 0,
+            "Name": "神秘坐标",
+            "Desc": "怀表上的神秘坐标,给人一种不舒服的感觉,也许贸然前往会遇到危险?",
+            "r": 61,
+            "g": 54,
+            "b": 92
+        },
+        {
+            "Id": 10,
+            "StartId": 0,
+            "Name": "小村庄",
+            "Desc": "一处怪异的小村庄,给人一种不舒服的感觉.也许贸然前往会遇到危险?",
+            "r": 61,
+            "g": 54,
+            "b": 92
+        },
+        {
+            "Id": 11,
+            "StartId": 37,
+            "Name": "切入点",
+            "Desc": "从高速公路进入城市是不妥的,大量的汽车堵塞会导致很大的危险,我们应该另寻出路.",
+            "r": 27,
+            "g": 77,
+            "b": 62
+        },
+        {
+            "Id": 12,
+            "StartId": 43,
+            "Name": "搜索海洛",
+            "Desc": "我们不能确定海洛的位置,因此不得不展开大范围的搜索.如果我们有他的具体信息,就可以直接找到了吧.",
+            "r": 27,
+            "g": 77,
+            "b": 62
+        },
+        {
+            "Id": 13,
+            "StartId": 0,
+            "Name": "悠久广播",
+            "Desc": "悠久的广播在大学城回荡,也许应该过去看看.",
+            "r": 61,
+            "g": 54,
+            "b": 92
+        },
+        {
+            "Id": 14,
+            "StartId": 0,
+            "Name": "初中办公室",
+            "Desc": "已经确定了海洛的位置,前往哪里就可以了.",
+            "r": 100,
+            "g": 74,
+            "b": 7
+        }
+    ],
+    "NodeList": [
+        {
+            "Id": 1,
+            "eventId": 1,
+            "weight": 100,
+            "Title": "百货大楼开局",
+            "Text": "昏昏沉沉之间,轮回者们从地上爬了起来.映入眼帘的是一个百货大楼的某家商铺.\n透过主神保护罩,可以看到整个大楼中有着大量丧尸存在,他们漫无目的的徘徊着.\n看起来在神的保护罩打破的瞬间,他们就会冲过来袭击轮回者们.\n就在队员们寻找着离开的通道时,全员的手表上浮现出任务[逃离城市,全队获得1000奖励点]",
+            "GoList": [
+                2,
+                3
+            ],
+            "GoType": 1,
+            "EnemyList": [],
+            "RewardList": [],
+            "ULEIdList": [],
+            "IsEnd": false,
+            "isEventEnd": false,
+            "pos": {
+                "x": 592.0,
+                "y": -47.0
+            }
+        },
+        {
+            "Id": 2,
+            "eventId": 1,
+            "weight": 100,
+            "Title": "这里有通风管道",
+            "Text": "也许能从通风管道离开,至少通风管道里不会有丧尸.",
+            "GoList": [
+                8
+            ],
+            "GoType": 0,
+            "EnemyList": [],
+            "RewardList": [],
+            "ULEIdList": [],
+            "IsEnd": false,
+            "isEventEnd": false,
+            "pos": {
+                "x": 496.0,
+                "y": 238.0
+            }
+        },
+        {
+            "Id": 3,
+            "eventId": 1,
+            "weight": 100,
+            "Title": "从二楼离开",
+            "Text": "迅速前往二楼寻找可以离开的商铺,要赶在大批丧尸到达之前逃出这里.  ",
+            "GoList": [
+                4
+            ],
+            "GoType": 0,
+            "EnemyList": [],
+            "RewardList": [],
+            "ULEIdList": [],
+            "IsEnd": false,
+            "isEventEnd": false,
+            "pos": {
+                "x": 688.0,
+                "y": 238.0
+            }
+        },
+        {
+            "Id": 4,
+            "eventId": 1,
+            "weight": 100,
+            "Title": "",
+            "Text": "伴随着神的保护罩破碎,轮回者们迅速前往二楼.\n他们顺手从地上拿起了一些铁棍和一些散落的石头作为武器.",
+            "GoList": [
+                5
+            ],
+            "GoType": 0,
+            "EnemyList": [],
+            "RewardList": [
+                {
+                    "Key": 11000,
+                    "Value": 1,
+                    "value2": 100
+                },
+                {
+                    "Key": 11001,
+                    "Value": 1,
+                    "value2": 100
+                },
+                {
+                    "Key": 11000,
+                    "Value": 1,
+                    "value2": 50
+                },
+                {
+                    "Key": 11001,
+                    "Value": 1,
+                    "value2": 50
+                }
+            ],
+            "ULEIdList": [],
+            "IsEnd": false,
+            "isEventEnd": false,
+            "pos": {
+                "x": 688.0,
+                "y": 360.0
+            }
+        },
+        {
+            "Id": 5,
+            "eventId": 1,
+            "weight": 100,
+            "Title": "",
+            "Text": "很快第一批阻挡的丧尸就到来了",
+            "GoList": [
+                6
+            ],
+            "GoType": 0,
+            "EnemyList": [
+                {
+                    "Key": 11000,
+                    "Value": 1,
+                    "value2": 100
+                }
+            ],
+            "RewardList": [],
+            "ULEIdList": [],
+            "IsEnd": false,
+            "isEventEnd": false,
+            "pos": {
+                "x": 688.0,
+                "y": 561.0
+            }
+        },
+        {
+            "Id": 6,
+            "eventId": 1,
+            "weight": 100,
+            "Title": "",
+            "Text": "轮回者们在解决丧尸之后很快来到了二楼,他们找到了一条可以离开的路.\n与此同时,他们也在这里找到了一些能用的道具",
+            "GoList": [
+                61
+            ],
+            "GoType": 0,
+            "EnemyList": [],
+            "RewardList": [
+                {
+                    "Key": 11002,
+                    "Value": 1,
+                    "value2": 100
+                },
+                {
+                    "Key": 11003,
+                    "Value": 1,
+                    "value2": 100
+                }
+            ],
+            "ULEIdList": [],
+            "IsEnd": false,
+            "isEventEnd": false,
+            "pos": {
+                "x": 688.0,
+                "y": 702.0
+            }
+        },
+        {
+            "Id": 8,
+            "eventId": 1,
+            "weight": 100,
+            "Title": "",
+            "Text": "在通风管道的爬行中,轮回者们找到了一具幸存者的尸体,很明显他没有变异为丧尸.\n在他的身上,轮回者们找到了一些简易武器.兴许能给团队带来一些帮助.",
+            "GoList": [
+                10
+            ],
+            "GoType": 0,
+            "EnemyList": [],
+            "RewardList": [
+                {
+                    "Key": 11001,
+                    "Value": 1,
+                    "value2": 100
+                },
+                {
+                    "Key": 11011,
+                    "Value": 1,
+                    "value2": 100
+                }
+            ],
+            "ULEIdList": [],
+            "IsEnd": false,
+            "isEventEnd": false,
+            "pos": {
+                "x": 496.0,
+                "y": 435.0
+            }
+        },
+        {
+            "Id": 62,
+            "eventId": 4,
+            "weight": 100,
+            "Title": "",
+            "Text": "",
+            "GoList": [],
+            "GoType": 0,
+            "EnemyList": [],
+            "RewardList": [],
+            "ULEIdList": [],
+            "IsEnd": false,
+            "isEventEnd": true,
+            "pos": {
+                "x": 1895.0,
+                "y": 1037.0
+            }
+        },
+        {
+            "Id": 10,
+            "eventId": 1,
+            "weight": 100,
+            "Title": "",
+            "Text": "经过一段事件的爬行后,轮回者们终于逃出了大楼,来到了大楼外的一处巷子中.\n它们在这里找到了两根钢管.\n无论如何该想象接下来怎么做了.",
+            "GoList": [
+                61
+            ],
+            "GoType": 0,
+            "EnemyList": [],
+            "RewardList": [
+                {
+                    "Key": 11001,
+                    "Value": 1,
+                    "value2": 100
+                }
+            ],
+            "ULEIdList": [],
+            "IsEnd": false,
+            "isEventEnd": false,
+            "pos": {
+                "x": 496.0,
+                "y": 702.0
+            }
+        },
+        {
+            "Id": 11,
+            "eventId": 3,
+            "weight": 100,
+            "Title": "离开方式",
+            "Text": "轮回者们在巷子中慢慢冷静下来,开始考虑如何离开城市.\n他们想到了三条路:从下水道系统离开,或者正面杀出去去,又或者通过铁路系统离开.",
+            "GoList": [
+                12,
+                13
+            ],
+            "GoType": 1,
+            "EnemyList": [],
+            "RewardList": [],
+            "ULEIdList": [],
+            "IsEnd": false,
+            "isEventEnd": false,
+            "pos": {
+                "x": 1201.0,
+                "y": -44.0
+            }
+        },
+        {
+            "Id": 12,
+            "eventId": 3,
+            "weight": 100,
+            "Title": "下水道系统",
+            "Text": "在轮回者们看来,下水道系统时最安全的道路,丧尸一般不会进入下水道,一般幸存者也完全可以避开.",
+            "GoList": [
+                15
+            ],
+            "GoType": 0,
+            "EnemyList": [],
+            "RewardList": [],
+            "ULEIdList": [],
+            "IsEnd": false,
+            "isEventEnd": false,
+            "pos": {
+                "x": 1297.0,
+                "y": 155.0
+            }
+        },
+        {
+            "Id": 13,
+            "eventId": 3,
+            "weight": 100,
+            "Title": "正面杀出去",
+            "Text": "正面杀出去,有什么好怕的!(一共6波!)",
+            "GoList": [
+                52
+            ],
+            "GoType": 0,
+            "EnemyList": [],
+            "RewardList": [],
+            "ULEIdList": [],
+            "IsEnd": false,
+            "isEventEnd": false,
+            "pos": {
+                "x": 1105.0,
+                "y": 155.0
+            }
+        },
+        {
+            "Id": 15,
+            "eventId": 3,
+            "weight": 100,
+            "Title": "",
+            "Text": "轮回者们从一个节点进入了下水道系统,只是下水道系统比想象的要复杂的多.\n他们开始在下水道里乱摸索,但是很不幸的时,很快就遭遇了两个幸存者变成的丧尸.",
+            "GoList": [
+                16
+            ],
+            "GoType": 0,
+            "EnemyList": [
+                {
+                    "Key": 11000,
+                    "Value": 2,
+                    "value2": 100
+                }
+            ],
+            "RewardList": [],
+            "ULEIdList": [],
+            "IsEnd": false,
+            "isEventEnd": false,
+            "pos": {
+                "x": 1297.0,
+                "y": 279.0
+            }
+        },
+        {
+            "Id": 16,
+            "eventId": 3,
+            "weight": 100,
+            "Title": "",
+            "Text": "干掉丧尸后,轮回者在他们身上找到了一些武器和补给.",
+            "GoList": [
+                17
+            ],
+            "GoType": 0,
+            "EnemyList": [],
+            "RewardList": [
+                {
+                    "Key": 11006,
+                    "Value": 1,
+                    "value2": 100
+                }
+            ],
+            "ULEIdList": [],
+            "IsEnd": false,
+            "isEventEnd": false,
+            "pos": {
+                "x": 1297.0,
+                "y": 461.0
+            }
+        },
+        {
+            "Id": 17,
+            "eventId": 3,
+            "weight": 100,
+            "Title": "",
+            "Text": "继续前进,几声呼唤声传入到了轮回者的耳中.\n他们走过去的时候那边躺着一个研究员,看起来他随时都会死去.\n\"你们想离开城市吧......下水道很...复杂的,你们......可能需要附近......幸存者营地的帮助.......\"\n\"如果......可能的话......麻烦你们从......附近的......井出去......去找......\"\n他买油什么能力在继续说话,掏出一串钥匙,便去世了. \n",
+            "GoList": [
+                63
+            ],
+            "GoType": 0,
+            "EnemyList": [],
+            "RewardList": [],
+            "ULEIdList": [],
+            "IsEnd": false,
+            "isEventEnd": false,
+            "pos": {
+                "x": 1297.0,
+                "y": 585.0
+            }
+        },
+        {
+            "Id": 18,
+            "eventId": 4,
+            "weight": 100,
+            "Title": "调查附近",
+            "Text": "轮回者们最终没有理会那个研究员,选择直接前往城市边缘调查.\n大量丧尸在城市的边缘聚集,如果想要正面冲出去,大概要经历不少战斗.但也许我们可以引爆加油站去将丧尸吸引到一边.",
+            "GoList": [
+                19,
+                20
+            ],
+            "GoType": 1,
+            "EnemyList": [],
+            "RewardList": [],
+            "ULEIdList": [],
+            "IsEnd": false,
+            "isEventEnd": false,
+            "pos": {
+                "x": 1799.0,
+                "y": -59.0
+            }
+        },
+        {
+            "Id": 19,
+            "eventId": 4,
+            "weight": 100,
+            "Title": "正面冲出去吧",
+            "Text": "无论如何,冲出去并没有什么问题.(tips:难度很高)",
+            "GoList": [
+                48
+            ],
+            "GoType": 0,
+            "EnemyList": [],
+            "RewardList": [],
+            "ULEIdList": [],
+            "IsEnd": false,
+            "isEventEnd": false,
+            "pos": {
+                "x": 1703.0,
+                "y": 155.0
+            }
+        },
+        {
+            "Id": 20,
+            "eventId": 4,
+            "weight": 100,
+            "Title": "尝试引爆加油站",
+            "Text": "只要我们可以引爆加油站,我们就可以将丧尸吸引走.",
+            "GoList": [
+                21
+            ],
+            "GoType": 0,
+            "EnemyList": [],
+            "RewardList": [],
+            "ULEIdList": [],
+            "IsEnd": false,
+            "isEventEnd": false,
+            "pos": {
+                "x": 1895.0,
+                "y": 155.0
+            }
+        },
+        {
+            "Id": 21,
+            "eventId": 4,
+            "weight": 100,
+            "Title": "",
+            "Text": "为了引爆加油站,除了助燃剂之外,轮回者们还需要尽可能多的烟花爆竹来强化爆炸时的声音,并且需要远程点燃.\n他们开始搜索附近的超市,乞求能够找到什么,但是很明显,这里有诸多丧尸,看起来得先解决它们才行.",
+            "GoList": [
+                22
+            ],
+            "GoType": 0,
+            "EnemyList": [
+                {
+                    "Key": 11000,
+                    "Value": 6,
+                    "value2": 100
+                }
+            ],
+            "RewardList": [],
+            "ULEIdList": [],
+            "IsEnd": false,
+            "isEventEnd": false,
+            "pos": {
+                "x": 1895.0,
+                "y": 264.0
+            }
+        },
+        {
+            "Id": 22,
+            "eventId": 4,
+            "weight": 100,
+            "Title": "",
+            "Text": "值得一提的是,他们在超市角落中找到了一把奇怪的武器.\n它是一把武士刀,无比锋利,却给人一种破旧的感觉.",
+            "GoList": [
+                23
+            ],
+            "GoType": 0,
+            "EnemyList": [],
+            "RewardList": [
+                {
+                    "Key": 13002,
+                    "Value": 1,
+                    "value2": 100
+                }
+            ],
+            "ULEIdList": [],
+            "IsEnd": false,
+            "isEventEnd": false,
+            "pos": {
+                "x": 1895.0,
+                "y": 461.0
+            }
+        },
+        {
+            "Id": 23,
+            "eventId": 4,
+            "weight": 100,
+            "Title": "",
+            "Text": "除此之外,他们同样找到了移除警局,如果将其占领的话,说不定能找到武器并且提供一些帮助.",
+            "GoList": [
+                24
+            ],
+            "GoType": 0,
+            "EnemyList": [],
+            "RewardList": [],
+            "ULEIdList": [
+                7
+            ],
+            "IsEnd": false,
+            "isEventEnd": false,
+            "pos": {
+                "x": 1895.0,
+                "y": 614.0
+            }
+        },
+        {
+            "Id": 24,
+            "eventId": 4,
+            "weight": 100,
+            "Title": "",
+            "Text": "在清理掉超市不多的丧尸之后,轮回者们开始寻找起来需要的材料.\n但是很快他们就发现,所需要的烟花一类的资源,似乎在它们来之前就被买空了.\n在检查这里的电脑账单的订购记录之后,他们找到了一个客户,是一个别墅区的富豪,购买了大量的烟花.\n轮回者们尝试拨打了他的电话,但并没有回应,看起来像是已经惨死于丧尸之口了.\n但是很快一个陌生的号码拨通了他们的电话.",
+            "GoList": [
+                62
+            ],
+            "GoType": 0,
+            "EnemyList": [],
+            "RewardList": [],
+            "ULEIdList": [
+                8
+            ],
+            "IsEnd": false,
+            "isEventEnd": false,
+            "pos": {
+                "x": 1895.0,
+                "y": 752.0
+            }
+        },
+        {
+            "Id": 25,
+            "eventId": 2,
+            "weight": 100,
+            "Title": "城市边缘开局",
+            "Text": "队员们被湿寒的土壤,周遭的荒芜破败的草原也提示着它们不在是熟悉的环境.\n透过主神的保护罩远瞰能发现一些模糊的城市高楼虚影,以及零散丧尸游荡.不过稍远处有些矮脚房的存在,可能这块区域比较接近郊区.\n就在队员们交流讨论着的时候,手表上浮现出任务[前往白山市,救出海洛,全队获得1000奖励点]",
+            "GoList": [
+                26,
+                27
+            ],
+            "GoType": 2,
+            "EnemyList": [],
+            "RewardList": [],
+            "ULEIdList": [],
+            "IsEnd": false,
+            "isEventEnd": false,
+            "pos": {
+                "x": 592.0,
+                "y": -1606.0
+            }
+        },
+        {
+            "Id": 26,
+            "eventId": 2,
+            "weight": 100,
+            "Title": "临近准备",
+            "Text": "或许是因为人类的无节制影响了生态,着片瘠薄的土壤上除去韧草,就再也孕育不出其他植被.\n队员们也不太清楚这杯抛弃的落魄之地中,是否真的能寻找到有用处的道具.无论如何,去赌一次吧,即使毫无希望,还能差到那里去呢?",
+            "GoList": [
+                28,
+                29
+            ],
+            "GoType": 0,
+            "EnemyList": [],
+            "RewardList": [],
+            "ULEIdList": [],
+            "IsEnd": false,
+            "isEventEnd": false,
+            "pos": {
+                "x": 496.0,
+                "y": -1333.0
+            }
+        },
+        {
+            "Id": 27,
+            "eventId": 2,
+            "weight": 100,
+            "Title": "远处的小房子",
+            "Text": "不远处的公路附近有着一个小房子,在哪里也许可以找到什么有用的工具.只是那附近徘徊着几只丧尸.",
+            "GoList": [
+                30
+            ],
+            "GoType": 0,
+            "EnemyList": [],
+            "RewardList": [],
+            "ULEIdList": [],
+            "IsEnd": false,
+            "isEventEnd": false,
+            "pos": {
+                "x": 688.0,
+                "y": -1333.0
+            }
+        },
+        {
+            "Id": 28,
+            "eventId": 2,
+            "weight": 100,
+            "Title": "",
+            "Text": "队员们尽力探索着周围是否存在着能利用的道具,毕竟这是攸关生命的事.多一份把握总是好的.可惜最后的结果还是一无所获,但是至少努力过了.\n队员随手捡起一些碎石调笑着\"钓鱼老永不空军\",也许这种武器过于落后,但是对于笨重的丧尸来说也许可以做到让它脑袋开花.       ",
+            "GoList": [
+                31
+            ],
+            "GoType": 0,
+            "EnemyList": [
+                {
+                    "Key": 11000,
+                    "Value": 1,
+                    "value2": 100
+                }
+            ],
+            "RewardList": [],
+            "ULEIdList": [],
+            "IsEnd": false,
+            "isEventEnd": false,
+            "pos": {
+                "x": 304.0,
+                "y": -1107.0
+            }
+        },
+        {
+            "Id": 29,
+            "eventId": 2,
+            "weight": 100,
+            "Title": "",
+            "Text": "队员们尽力探索着周围是否存在着能利用的道具,毕竟这是攸关生命的事.运气很好,队员找到了一些看起来有帮助的道具.",
+            "GoList": [
+                31
+            ],
+            "GoType": 0,
+            "EnemyList": [],
+            "RewardList": [
+                {
+                    "Key": 11004,
+                    "Value": 1,
+                    "value2": 100
+                },
+                {
+                    "Key": 11004,
+                    "Value": 1,
+                    "value2": 50
+                },
+                {
+                    "Key": 11004,
+                    "Value": 1,
+                    "value2": 50
+                },
+                {
+                    "Key": 11005,
+                    "Value": 1,
+                    "value2": 100
+                },
+                {
+                    "Key": 11005,
+                    "Value": 1,
+                    "value2": 50
+                }
+            ],
+            "ULEIdList": [],
+            "IsEnd": false,
+            "isEventEnd": false,
+            "pos": {
+                "x": 496.0,
+                "y": -1107.0
+            }
+        },
+        {
+            "Id": 30,
+            "eventId": 2,
+            "weight": 100,
+            "Title": "",
+            "Text": "一把刀立在房子中心,大家简单商量了一下,就拿走了",
+            "GoList": [
+                33
+            ],
+            "GoType": 0,
+            "EnemyList": [],
+            "RewardList": [
+                {
+                    "Key": 12000,
+                    "Value": 1,
+                    "value2": 100
+                }
+            ],
+            "ULEIdList": [],
+            "IsEnd": false,
+            "isEventEnd": false,
+            "pos": {
+                "x": 688.0,
+                "y": -1209.0
+            }
+        },
+        {
+            "Id": 31,
+            "eventId": 2,
+            "weight": 100,
+            "Title": "",
+            "Text": "一只无法行动的丧尸停留在了路边,然后被某个队员踩了几脚踩死了.",
+            "GoList": [
+                32
+            ],
+            "GoType": 0,
+            "EnemyList": [],
+            "RewardList": [
+                {
+                    "Key": 100,
+                    "Value": 100,
+                    "value2": 100
+                }
+            ],
+            "ULEIdList": [],
+            "IsEnd": false,
+            "isEventEnd": false,
+            "pos": {
+                "x": 496.0,
+                "y": -865.0
+            }
+        },
+        {
+            "Id": 32,
+            "eventId": 2,
+            "weight": 100,
+            "Title": "",
+            "Text": "在附近的一辆车上发现了一块破旧的怀表,里面有着一个坐标?\n虽然不是什么好兆头,但坐标确实令人在意,队员们将坐标分析之后,标记在了地图上.",
+            "GoList": [],
+            "GoType": 0,
+            "EnemyList": [],
+            "RewardList": [],
+            "ULEIdList": [
+                9
+            ],
+            "IsEnd": false,
+            "isEventEnd": false,
+            "pos": {
+                "x": 496.0,
+                "y": -741.0
+            }
+        },
+        {
+            "Id": 33,
+            "eventId": 2,
+            "weight": 100,
+            "Title": "",
+            "Text": "在屋子里又找到了另一把长刀,大家心满意足的走了.",
+            "GoList": [
+                34,
+                35
+            ],
+            "GoType": 0,
+            "EnemyList": [],
+            "RewardList": [
+                {
+                    "Key": 12000,
+                    "Value": 1,
+                    "value2": 100
+                }
+            ],
+            "ULEIdList": [],
+            "IsEnd": false,
+            "isEventEnd": false,
+            "pos": {
+                "x": 688.0,
+                "y": -1085.0
+            }
+        },
+        {
+            "Id": 34,
+            "eventId": 2,
+            "weight": 100,
+            "Title": "",
+            "Text": "虽然有几只丧尸在游荡,但轮回者们似乎很顺利的躲开了它们",
+            "GoList": [
+                36
+            ],
+            "GoType": 0,
+            "EnemyList": [],
+            "RewardList": [],
+            "ULEIdList": [],
+            "IsEnd": false,
+            "isEventEnd": false,
+            "pos": {
+                "x": 880.0,
+                "y": -910.0
+            }
+        },
+        {
+            "Id": 35,
+            "eventId": 2,
+            "weight": 100,
+            "Title": "",
+            "Text": "离开的时候不小心惊动了几只游荡的丧尸,准备战斗吧.",
+            "GoList": [
+                36
+            ],
+            "GoType": 0,
+            "EnemyList": [
+                {
+                    "Key": 11000,
+                    "Value": 4,
+                    "value2": 100
+                }
+            ],
+            "RewardList": [],
+            "ULEIdList": [],
+            "IsEnd": false,
+            "isEventEnd": false,
+            "pos": {
+                "x": 688.0,
+                "y": -927.0
+            }
+        },
+        {
+            "Id": 36,
+            "eventId": 2,
+            "weight": 100,
+            "Title": "",
+            "Text": "队员们在远方发现了一个怪异的村庄,似乎有人活动的痕迹,却没有丧失靠近.",
+            "GoList": [],
+            "GoType": 0,
+            "EnemyList": [],
+            "RewardList": [],
+            "ULEIdList": [
+                10,
+                11
+            ],
+            "IsEnd": false,
+            "isEventEnd": false,
+            "pos": {
+                "x": 688.0,
+                "y": -785.0
+            }
+        },
+        {
+            "Id": 37,
+            "eventId": 11,
+            "weight": 100,
+            "Title": "切入点",
+            "Text": "",
+            "GoList": [
+                38,
+                39,
+                40
+            ],
+            "GoType": 1,
+            "EnemyList": [],
+            "RewardList": [],
+            "ULEIdList": [],
+            "IsEnd": false,
+            "isEventEnd": false,
+            "pos": {
+                "x": 1289.0,
+                "y": -1606.0
+            }
+        },
+        {
+            "Id": 38,
+            "eventId": 11,
+            "weight": 100,
+            "Title": "从公路突入城市",
+            "Text": "即使这里丧尸盘踞,直接从正面突入任然是最有效的方法,无非就是多杀一些丧尸",
+            "GoList": [
+                59
+            ],
+            "GoType": 0,
+            "EnemyList": [],
+            "RewardList": [],
+            "ULEIdList": [],
+            "IsEnd": false,
+            "isEventEnd": false,
+            "pos": {
+                "x": 1097.0,
+                "y": -1483.0
+            }
+        },
+        {
+            "Id": 39,
+            "eventId": 11,
+            "weight": 100,
+            "Title": "尝试从各种高台攀越",
+            "Text": "通过建筑顶部的连接逐步攀越进入城市,这样可以避免大部分丧尸,但也容易踩空落单.",
+            "GoList": [
+                41
+            ],
+            "GoType": 0,
+            "EnemyList": [],
+            "RewardList": [],
+            "ULEIdList": [],
+            "IsEnd": false,
+            "isEventEnd": false,
+            "pos": {
+                "x": 1289.0,
+                "y": -1483.0
+            }
+        },
+        {
+            "Id": 40,
+            "eventId": 11,
+            "weight": 100,
+            "Title": "尝试从火车道进入城市",
+            "Text": "通过火车道进入城市,如果哪里已经被肃清,这将是一条最棒的道路.反之可能会遇到大量丧尸.",
+            "GoList": [],
+            "GoType": 0,
+            "EnemyList": [],
+            "RewardList": [],
+            "ULEIdList": [],
+            "IsEnd": false,
+            "isEventEnd": false,
+            "pos": {
+                "x": 1481.0,
+                "y": -1483.0
+            }
+        },
+        {
+            "Id": 41,
+            "eventId": 11,
+            "weight": 100,
+            "Title": "",
+            "Text": "在一个屋顶的房子中,找到了一些布衣和长刀.\n这一家人看起来已经全部化作丧尸,在楼上游荡着,它们的遗产会为我们带来帮助.",
+            "GoList": [
+                42
+            ],
+            "GoType": 0,
+            "EnemyList": [],
+            "RewardList": [
+                {
+                    "Key": 11003,
+                    "Value": 1,
+                    "value2": 100
+                },
+                {
+                    "Key": 12000,
+                    "Value": 1,
+                    "value2": 100
+                },
+                {
+                    "Key": 11003,
+                    "Value": 1,
+                    "value2": 50
+                }
+            ],
+            "ULEIdList": [],
+            "IsEnd": false,
+            "isEventEnd": false,
+            "pos": {
+                "x": 1289.0,
+                "y": -1359.0
+            }
+        },
+        {
+            "Id": 42,
+            "eventId": 11,
+            "weight": 100,
+            "Title": "",
+            "Text": "屋顶上有一些丧尸的尸体,它们横七竖八的躺在地上,队员们不是第一批来到这里的人.\n看起来这条道路已经被打通,有前辈清理了这里的丧尸.",
+            "GoList": [],
+            "GoType": 0,
+            "EnemyList": [],
+            "RewardList": [],
+            "ULEIdList": [
+                12
+            ],
+            "IsEnd": false,
+            "isEventEnd": false,
+            "pos": {
+                "x": 1289.0,
+                "y": -1159.0
+            }
+        },
+        {
+            "Id": 43,
+            "eventId": 12,
+            "weight": 100,
+            "Title": "搜索海洛",
+            "Text": "没有任何信息,因此只能像无头苍蝇一样在整个城市中寻找,这样的举措无异于大海捞针.\n因此一个队员提出了两个方式:前往广播塔进行广播,或者前往城市的电话查询中心查询海洛相关的信息.",
+            "GoList": [
+                44,
+                45
+            ],
+            "GoType": 1,
+            "EnemyList": [],
+            "RewardList": [],
+            "ULEIdList": [],
+            "IsEnd": false,
+            "isEventEnd": false,
+            "pos": {
+                "x": 1938.0,
+                "y": -1574.0
+            }
+        },
+        {
+            "Id": 44,
+            "eventId": 12,
+            "weight": 100,
+            "Title": "广播塔",
+            "Text": "通过广播塔可以很轻松的找到剩余幸存者的位置,从中寻找海洛可能有些复杂,也可能遇到较多的敌人.",
+            "GoList": [],
+            "GoType": 0,
+            "EnemyList": [],
+            "RewardList": [],
+            "ULEIdList": [],
+            "IsEnd": false,
+            "isEventEnd": false,
+            "pos": {
+                "x": 1842.0,
+                "y": -1354.0
+            }
+        },
+        {
+            "Id": 45,
+            "eventId": 12,
+            "weight": 100,
+            "Title": "电话查询中心",
+            "Text": "通过电话查询中心可以轻松的找到海洛的信息,或者直接拨打电话给他.",
+            "GoList": [
+                46
+            ],
+            "GoType": 0,
+            "EnemyList": [],
+            "RewardList": [],
+            "ULEIdList": [],
+            "IsEnd": false,
+            "isEventEnd": false,
+            "pos": {
+                "x": 2034.0,
+                "y": -1354.0
+            }
+        },
+        {
+            "Id": 46,
+            "eventId": 12,
+            "weight": 100,
+            "Title": "",
+            "Text": "轮回者们向着附近的电话查询中心前进,这种敌方最能找到关于某个人的信息.\n虽然和几十年前差距巨大,但这里应该依然存有大部分居民的电话和工作地址.\n电话查询中心几乎没有任何丧尸,连大门都是锁着的.\n轮回者们轻易的来到了中心内部,这里有一些水和零食,给了轮回者们一些补给",
+            "GoList": [
+                47
+            ],
+            "GoType": 0,
+            "EnemyList": [],
+            "RewardList": [
+                {
+                    "Key": 11002,
+                    "Value": 1,
+                    "value2": 100
+                }
+            ],
+            "ULEIdList": [],
+            "IsEnd": false,
+            "isEventEnd": false,
+            "pos": {
+                "x": 2034.0,
+                "y": -1245.0
+            }
+        },
+        {
+            "Id": 47,
+            "eventId": 12,
+            "weight": 100,
+            "Title": "",
+            "Text": "在很长一段时间的查找后,轮回者们在某个笔记本上找到了海洛相关的信息.\n他的手机无人接听,想必是没电关机了.但是依然找到了他工作的敌方,某个中学的办公室.\n而除此之外,轮回者们调查道这里的固话,曾经多次被拨打,均来自某个大学城.",
+            "GoList": [],
+            "GoType": 0,
+            "EnemyList": [],
+            "RewardList": [],
+            "ULEIdList": [],
+            "IsEnd": false,
+            "isEventEnd": false,
+            "pos": {
+                "x": 2034.0,
+                "y": -991.0
+            }
+        },
+        {
+            "Id": 48,
+            "eventId": 4,
+            "weight": 100,
+            "Title": "",
+            "Text": "第一波",
+            "GoList": [
+                49
+            ],
+            "GoType": 0,
+            "EnemyList": [
+                {
+                    "Key": 11000,
+                    "Value": 5,
+                    "value2": 100
+                }
+            ],
+            "RewardList": [],
+            "ULEIdList": [],
+            "IsEnd": false,
+            "isEventEnd": false,
+            "pos": {
+                "x": 1703.0,
+                "y": 264.0
+            }
+        },
+        {
+            "Id": 49,
+            "eventId": 4,
+            "weight": 100,
+            "Title": "",
+            "Text": "第二波",
+            "GoList": [
+                50
+            ],
+            "GoType": 0,
+            "EnemyList": [
+                {
+                    "Key": 11000,
+                    "Value": 10,
+                    "value2": 100
+                }
+            ],
+            "RewardList": [],
+            "ULEIdList": [],
+            "IsEnd": false,
+            "isEventEnd": false,
+            "pos": {
+                "x": 1703.0,
+                "y": 373.0
+            }
+        },
+        {
+            "Id": 50,
+            "eventId": 4,
+            "weight": 100,
+            "Title": "",
+            "Text": "第三波",
+            "GoList": [
+                51
+            ],
+            "GoType": 0,
+            "EnemyList": [
+                {
+                    "Key": 11000,
+                    "Value": 15,
+                    "value2": 100
+                }
+            ],
+            "RewardList": [],
+            "ULEIdList": [],
+            "IsEnd": false,
+            "isEventEnd": false,
+            "pos": {
+                "x": 1703.0,
+                "y": 482.0
+            }
+        },
+        {
+            "Id": 51,
+            "eventId": 4,
+            "weight": 100,
+            "Title": "",
+            "Text": "终于冲出来了!",
+            "GoList": [],
+            "GoType": 0,
+            "EnemyList": [],
+            "RewardList": [
+                {
+                    "Key": 100,
+                    "Value": 500,
+                    "value2": 100
+                }
+            ],
+            "ULEIdList": [],
+            "IsEnd": true,
+            "isEventEnd": false,
+            "pos": {
+                "x": 1703.0,
+                "y": 591.0
+            }
+        },
+        {
+            "Id": 52,
+            "eventId": 3,
+            "weight": 100,
+            "Title": "",
+            "Text": "轮回者们简单思考,便决定杀出城市.\n轮回者们很快来到城市边缘,要冲出城市大概要经历4层防线,虽然其中有些地方可以在建筑群中稍作休息,但也不可能休息太久.\n第一场战斗开始了",
+            "GoList": [
+                53
+            ],
+            "GoType": 0,
+            "EnemyList": [
+                {
+                    "Key": 11000,
+                    "Value": 10,
+                    "value2": 100
+                }
+            ],
+            "RewardList": [],
+            "ULEIdList": [],
+            "IsEnd": false,
+            "isEventEnd": false,
+            "pos": {
+                "x": 1105.0,
+                "y": 262.0
+            }
+        },
+        {
+            "Id": 53,
+            "eventId": 3,
+            "weight": 100,
+            "Title": "",
+            "Text": "第一波丧尸很快清理完毕,但轮回者们仅仅使稍微喘息了一下,第二波丧尸便接踵而至.",
+            "GoList": [
+                54
+            ],
+            "GoType": 0,
+            "EnemyList": [
+                {
+                    "Key": 11000,
+                    "Value": 10,
+                    "value2": 100
+                },
+                {
+                    "Key": 11001,
+                    "Value": 10,
+                    "value2": 100
+                },
+                {
+                    "Key": 11002,
+                    "Value": 10,
+                    "value2": 100
+                }
+            ],
+            "RewardList": [
+                {
+                    "Key": 100,
+                    "Value": 50,
+                    "value2": 50
+                },
+                {
+                    "Key": 100,
+                    "Value": 30,
+                    "value2": 50
+                }
+            ],
+            "ULEIdList": [],
+            "IsEnd": false,
+            "isEventEnd": false,
+            "pos": {
+                "x": 1105.0,
+                "y": 444.0
+            }
+        },
+        {
+            "Id": 54,
+            "eventId": 3,
+            "weight": 100,
+            "Title": "",
+            "Text": "第二波丧尸比之前再次多出来太多,而这次战斗完毕之后,轮回者们并没有喘息的时间,第三波丧尸迅速到来了.",
+            "GoList": [
+                55
+            ],
+            "GoType": 0,
+            "EnemyList": [
+                {
+                    "Key": 11002,
+                    "Value": 15,
+                    "value2": 100
+                },
+                {
+                    "Key": 11003,
+                    "Value": 15,
+                    "value2": 100
+                }
+            ],
+            "RewardList": [],
+            "ULEIdList": [],
+            "IsEnd": false,
+            "isEventEnd": false,
+            "pos": {
+                "x": 1105.0,
+                "y": 663.0
+            }
+        },
+        {
+            "Id": 55,
+            "eventId": 3,
+            "weight": 100,
+            "Title": "",
+            "Text": "事情逐渐不正常了起来.\n丧尸的数量还在增加.一些奇怪的丧尸从不知名的角落钻了出来.\n它们张牙舞爪,看起来非常恐怖.",
+            "GoList": [
+                56
+            ],
+            "GoType": 0,
+            "EnemyList": [
+                {
+                    "Key": 11002,
+                    "Value": 10,
+                    "value2": 100
+                },
+                {
+                    "Key": 21000,
+                    "Value": 10,
+                    "value2": 100
+                },
+                {
+                    "Key": 21001,
+                    "Value": 10,
+                    "value2": 100
+                },
+                {
+                    "Key": 21002,
+                    "Value": 10,
+                    "value2": 100
+                }
+            ],
+            "RewardList": [],
+            "ULEIdList": [],
+            "IsEnd": false,
+            "isEventEnd": false,
+            "pos": {
+                "x": 1105.0,
+                "y": 832.0
+            }
+        },
+        {
+            "Id": 56,
+            "eventId": 3,
+            "weight": 100,
+            "Title": "",
+            "Text": "F**k...,S**t.....\n轮回者们怒骂着着不正常的战斗.\n话虽如此,但是还是得到了一点休息时间.",
+            "GoList": [
+                57
+            ],
+            "GoType": 0,
+            "EnemyList": [
+                {
+                    "Key": 21000,
+                    "Value": 10,
+                    "value2": 100
+                },
+                {
+                    "Key": 21001,
+                    "Value": 10,
+                    "value2": 100
+                },
+                {
+                    "Key": 21002,
+                    "Value": 10,
+                    "value2": 100
+                },
+                {
+                    "Key": 31000,
+                    "Value": 2,
+                    "value2": 100
+                }
+            ],
+            "RewardList": [],
+            "ULEIdList": [],
+            "IsEnd": false,
+            "isEventEnd": false,
+            "pos": {
+                "x": 1105.0,
+                "y": 1033.0
+            }
+        },
+        {
+            "Id": 57,
+            "eventId": 3,
+            "weight": 100,
+            "Title": "",
+            "Text": "到这里为止已经不是正常人了,\n这真的是丧尸世界该有的难度吗?",
+            "GoList": [
+                58
+            ],
+            "GoType": 0,
+            "EnemyList": [
+                {
+                    "Key": 31000,
+                    "Value": 10,
+                    "value2": 100
+                },
+                {
+                    "Key": 21001,
+                    "Value": 20,
+                    "value2": 100
+                },
+                {
+                    "Key": 21002,
+                    "Value": 20,
+                    "value2": 100
+                }
+            ],
+            "RewardList": [],
+            "ULEIdList": [],
+            "IsEnd": false,
+            "isEventEnd": false,
+            "pos": {
+                "x": 1105.0,
+                "y": 1233.0
+            }
+        },
+        {
+            "Id": 58,
+            "eventId": 3,
+            "weight": 100,
+            "Title": "",
+            "Text": "这个世界一定不正常.",
+            "GoList": [],
+            "GoType": 0,
+            "EnemyList": [],
+            "RewardList": [
+                {
+                    "Key": 100,
+                    "Value": 5000,
+                    "value2": 100
+                }
+            ],
+            "ULEIdList": [],
+            "IsEnd": true,
+            "isEventEnd": false,
+            "pos": {
+                "x": 1105.0,
+                "y": 1389.0
+            }
+        },
+        {
+            "Id": 59,
+            "eventId": 11,
+            "weight": 100,
+            "Title": "",
+            "Text": "在附近的车上找到了一些武器,能够提供一些帮助",
+            "GoList": [
+                60
+            ],
+            "GoType": 0,
+            "EnemyList": [],
+            "RewardList": [
+                {
+                    "Key": 11001,
+                    "Value": 1,
+                    "value2": 100
+                }
+            ],
+            "ULEIdList": [],
+            "IsEnd": false,
+            "isEventEnd": false,
+            "pos": {
+                "x": 1097.0,
+                "y": -1359.0
+            }
+        },
+        {
+            "Id": 60,
+            "eventId": 11,
+            "weight": 100,
+            "Title": "",
+            "Text": "前方出现了一波丧尸,必须把他们解决到才能继续前进.",
+            "GoList": [],
+            "GoType": 0,
+            "EnemyList": [
+                {
+                    "Key": 11000,
+                    "Value": 5,
+                    "value2": 100
+                }
+            ],
+            "RewardList": [],
+            "ULEIdList": [],
+            "IsEnd": false,
+            "isEventEnd": false,
+            "pos": {
+                "x": 1097.0,
+                "y": -1235.0
+            }
+        },
+        {
+            "Id": 61,
+            "eventId": 1,
+            "weight": 100,
+            "Title": "",
+            "Text": "",
+            "GoList": [],
+            "GoType": 0,
+            "EnemyList": [],
+            "RewardList": [],
+            "ULEIdList": [
+                3
+            ],
+            "IsEnd": false,
+            "isEventEnd": true,
+            "pos": {
+                "x": 496.0,
+                "y": 904.0
+            }
+        },
+        {
+            "Id": 63,
+            "eventId": 3,
+            "weight": 100,
+            "Title": "",
+            "Text": "",
+            "GoList": [],
+            "GoType": 0,
+            "EnemyList": [],
+            "RewardList": [],
+            "ULEIdList": [
+                4,
+                5,
+                6
+            ],
+            "IsEnd": false,
+            "isEventEnd": true,
+            "pos": {
+                "x": 1297.0,
+                "y": 822.0
+            }
+        }
+    ]
+}

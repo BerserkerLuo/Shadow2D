@@ -1,0 +1,212 @@
+[
+  {
+    "Index": 10001,
+    "EventId": 1,
+    "ID": 1,
+    "Goto": [
+      2
+    ],
+    "GotoPatam": 0,
+    "Enemy": [],
+    "Reward": [],
+    "UnLockEventId": [],
+    "Title": "",
+    "text": "队员们被湿寒的土壤冻醒,周遭荒芜破败的草原也提示者他们不在是熟悉的环境."
+  },
+  {
+    "Index": 10002,
+    "EventId": 1,
+    "ID": 2,
+    "Goto": [
+      3
+    ],
+    "GotoPatam": 0,
+    "Enemy": [],
+    "Reward": [],
+    "UnLockEventId": [],
+    "Title": "",
+    "text": "透过主神的保护罩远瞰,能发现一些模糊的城市高楼虚影,以及零散丧尸游荡.不过稍远处有些矮脚房的存在,可能这块区域比较接近郊区."
+  },
+  {
+    "Index": 10003,
+    "EventId": 1,
+    "ID": 3,
+    "Goto": [
+      4
+    ],
+    "GotoPatam": 0,
+    "Enemy": [],
+    "Reward": [],
+    "UnLockEventId": [],
+    "Title": "",
+    "text": "就在队员们交流讨论的时候,所有人手表上浮现是任务[前往白山市,救出海洛,全队获得1000奖励点]"
+  },
+  {
+    "Index": 10004,
+    "EventId": 1,
+    "ID": 4,
+    "Goto": [
+      5,
+      8
+    ],
+    "GotoPatam": 2,
+    "Enemy": [],
+    "Reward": [],
+    "UnLockEventId": [],
+    "Title": "搜索分队",
+    "text": "收到任务后,队员们绝对在附件搜索一些有用的资源"
+  },
+  {
+    "Index": 10005,
+    "EventId": 1,
+    "ID": 5,
+    "Goto": [
+      6,
+      7
+    ],
+    "GotoPatam": 3,
+    "Enemy": [],
+    "Reward": [],
+    "UnLockEventId": [],
+    "Title": "临近准备",
+    "text": ""
+  },
+  {
+    "Index": 10006,
+    "EventId": 1,
+    "ID": 6,
+    "Goto": [
+      8
+    ],
+    "GotoPatam": 0,
+    "Enemy": [],
+    "Reward": [],
+    "UnLockEventId": [],
+    "Title": "",
+    "text": "队员决定在附件搜刮一些能用的资源,毕竟攸关性命,但是即使非常努力的搜寻了,还是一无所获."
+  },
+  {
+    "Index": 10007,
+    "EventId": 1,
+    "ID": 7,
+    "Goto": [
+      8
+    ],
+    "GotoPatam": 0,
+    "Enemy": [],
+    "Reward": [
+      [
+        12,
+        1
+      ]
+    ],
+    "UnLockEventId": [],
+    "Title": "",
+    "text": "队员决定在附件搜刮一些能用的资源,非常幸运,找到了一些看起来有用的物资."
+  },
+  {
+    "Index": 10008,
+    "EventId": 1,
+    "ID": 8,
+    "Goto": [
+      9,
+      10
+    ],
+    "GotoPatam": 3,
+    "Enemy": [],
+    "Reward": [],
+    "UnLockEventId": [],
+    "Title": "附近的小房子",
+    "text": ""
+  },
+  {
+    "Index": 10009,
+    "EventId": 1,
+    "ID": 9,
+    "Goto": [
+      11
+    ],
+    "GotoPatam": 0,
+    "Enemy": [],
+    "Reward": [],
+    "UnLockEventId": [],
+    "Title": "",
+    "text": "队员决定到附件的小房子里面搜刮一些能用的资源,但是即使非常努力的搜寻了,还是一无所获."
+  },
+  {
+    "Index": 10010,
+    "EventId": 1,
+    "ID": 10,
+    "Goto": [
+      11
+    ],
+    "GotoPatam": 0,
+    "Enemy": [],
+    "Reward": [
+      [
+        12,
+        1
+      ]
+    ],
+    "UnLockEventId": [],
+    "Title": "",
+    "text": "队员决定到附件的小房子里面搜刮一些能用的资源,非常幸运,找到了一些看起来有用的物资."
+  },
+  {
+    "Index": 10011,
+    "EventId": 1,
+    "ID": 11,
+    "Goto": [
+      12,
+      13
+    ],
+    "GotoPatam": 3,
+    "Enemy": [],
+    "Reward": [],
+    "UnLockEventId": [],
+    "Title": "",
+    "text": ""
+  },
+  {
+    "Index": 10012,
+    "EventId": 1,
+    "ID": 12,
+    "Goto": [
+      13
+    ],
+    "GotoPatam": 0,
+    "Enemy": [],
+    "Reward": [],
+    "UnLockEventId": [
+      2
+    ],
+    "Title": "",
+    "text": "队员发现了一个神秘怀表,怀表中记录了一个坐标."
+  },
+  {
+    "Index": 10013,
+    "EventId": 1,
+    "ID": 13,
+    "Goto": [],
+    "GotoPatam": 0,
+    "Enemy": [],
+    "Reward": [],
+    "UnLockEventId": [
+      3
+    ],
+    "Title": "",
+    "text": "队员们还在远方发现了一个怪异村庄,似乎有人活动的痕迹,却没有丧尸靠近."
+  },
+  {
+    "Index": 20001,
+    "EventId": 2,
+    "ID": 1,
+    "Goto": [],
+    "GotoPatam": 0,
+    "Enemy": [],
+    "Reward": [],
+    "UnLockEventId": [],
+    "Title": "",
+    "text": ""
+  }
+]

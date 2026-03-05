@@ -1,0 +1,37 @@
+[
+  {
+    "EffectName": "Flag",
+    "EffectPath": "Prefabs\\Common\\Flag\\Flag",
+    "IsRotateForMaster": false,
+    "Describe": "点击标志",
+    "preLoadCount": 1
+  },
+  {
+    "EffectName": "Thunder",
+    "EffectPath": "Prefabs\\Effect\\Thunder",
+    "IsRotateForMaster": false,
+    "Describe": "落雷",
+    "preLoadCount": 10
+  },
+  {
+    "EffectName": "DarkBoom",
+    "EffectPath": "Prefabs\\Effect\\DarkBullet\\DarkBoom",
+    "IsRotateForMaster": false,
+    "Describe": "黑暗法球爆炸",
+    "preLoadCount": 10
+  },
+  {
+    "EffectName": "Pressure",
+    "EffectPath": "Prefabs\\Effect\\Pressure",
+    "IsRotateForMaster": false,
+    "Describe": "威压",
+    "preLoadCount": 1
+  },
+  {
+    "EffectName": "Heal",
+    "EffectPath": "Prefabs\\Effect\\Heal",
+    "IsRotateForMaster": false,
+    "Describe": "治疗特效",
+    "preLoadCount": 10
+  }
+]

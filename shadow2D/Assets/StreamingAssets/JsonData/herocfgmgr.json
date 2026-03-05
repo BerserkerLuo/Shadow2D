@@ -1,0 +1,73 @@
+[
+  {
+    "ID": 1,
+    "name": "阿瑶",
+    "Active": true,
+    "skill": [
+      10
+    ],
+    "UnLock": 0,
+    "HP": 10,
+    "Speed": 4,
+    "Avatar": "Magician0",
+    "UIAvatar": "MagicianUIAv0",
+    "Description": "魔法师"
+  },
+  {
+    "ID": 100,
+    "name": "小叶",
+    "Active": true,
+    "skill": [
+      120
+    ],
+    "UnLock": 100,
+    "HP": 15,
+    "Speed": 4,
+    "Avatar": "Archer0",
+    "UIAvatar": "ArcherUIAv0",
+    "Description": "弓箭手"
+  },
+  {
+    "ID": 101,
+    "name": "然然",
+    "Active": true,
+    "skill": [
+      20
+    ],
+    "UnLock": 200,
+    "HP": 20,
+    "Speed": 4,
+    "Avatar": "Healer0",
+    "UIAvatar": "HealerUIAv0",
+    "Description": ""
+  },
+  {
+    "ID": 102,
+    "name": "魔法学徒",
+    "Active": false,
+    "skill": [
+      130
+    ],
+    "UnLock": 300,
+    "HP": 25,
+    "Speed": 4,
+    "Avatar": "Magician0",
+    "UIAvatar": "MagicianUIAv0",
+    "Description": ""
+  },
+  {
+    "ID": 103,
+    "name": "牧师",
+    "Active": false,
+    "skill": [
+      100,
+      110
+    ],
+    "UnLock": 400,
+    "HP": 30,
+    "Speed": 4,
+    "Avatar": "Healer0",
+    "UIAvatar": "HealerUIAv0",
+    "Description": ""
+  }
+]

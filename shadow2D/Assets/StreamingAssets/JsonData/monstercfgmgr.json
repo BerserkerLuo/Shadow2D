@@ -1,0 +1,128 @@
+[
+  {
+    "ID": 10,
+    "name": "丧尸",
+    "AITreeType": 2,
+    "Rank": 1,
+    "HP": 30,
+    "LifeTime": -1,
+    "Speed": 3,
+    "RepelRe": 0,
+    "BodySize": 1,
+    "RVOLayer": 0,
+    "SkillList": [
+      2010
+    ],
+    "DropID": 100,
+    "DeadSkillId": 0,
+    "Prefab": "Zombie1",
+    "DeadAudio": "",
+    "DeadEffect": "",
+    "Describe": "丧尸世界的基本敌人,人来感染丧尸病毒后变化而来."
+  },
+  {
+    "ID": 11,
+    "name": "背带裤丧尸",
+    "AITreeType": 2,
+    "Rank": 1,
+    "HP": 40,
+    "LifeTime": -1,
+    "Speed": 3,
+    "RepelRe": 0,
+    "BodySize": 1,
+    "RVOLayer": 0,
+    "SkillList": [
+      2010
+    ],
+    "DropID": 100,
+    "DeadSkillId": 0,
+    "Prefab": "Zombie2",
+    "DeadAudio": "",
+    "DeadEffect": "",
+    "Describe": "似乎使某种得到强化的丧尸?当丧尸吃的人足够多的时候,就会成为这种东西."
+  },
+  {
+    "ID": 12,
+    "name": "铁钩丧尸",
+    "AITreeType": 2,
+    "Rank": 1,
+    "HP": 50,
+    "LifeTime": -1,
+    "Speed": 3,
+    "RepelRe": 0,
+    "BodySize": 1,
+    "RVOLayer": 0,
+    "SkillList": [
+      2010
+    ],
+    "DropID": 100,
+    "DeadSkillId": 0,
+    "Prefab": "Zombie3",
+    "DeadAudio": "",
+    "DeadEffect": "",
+    "Describe": "一部分丧尸在变异之后,全身的骨头长出了诡异的刺,者并没有影响它们的奔跑速度,反而让他们比慢吞吞的丧尸更快更强."
+  },
+  {
+    "ID": 13,
+    "name": "铁拳丧尸",
+    "AITreeType": 2,
+    "Rank": 1,
+    "HP": 60,
+    "LifeTime": -1,
+    "Speed": 3,
+    "RepelRe": 0,
+    "BodySize": 1.2,
+    "RVOLayer": 0,
+    "SkillList": [
+      2010
+    ],
+    "DropID": 100,
+    "DeadSkillId": 0,
+    "Prefab": "Zombie4",
+    "DeadAudio": "",
+    "DeadEffect": "",
+    "Describe": "一部分丧身体中产生了能够使用的酸液,因此它们可以远程喷涂酸液."
+  },
+  {
+    "ID": 1001,
+    "name": "小蜜蜂",
+    "AITreeType": 2,
+    "Rank": 1,
+    "HP": 100,
+    "LifeTime": 8,
+    "Speed": 5,
+    "RepelRe": 0,
+    "BodySize": 1,
+    "RVOLayer": 1,
+    "SkillList": [
+      1011
+    ],
+    "DropID": 0,
+    "DeadSkillId": 0,
+    "Prefab": "Bee",
+    "DeadAudio": "",
+    "DeadEffect": "",
+    "Describe": ""
+  },
+  {
+    "ID": 1002,
+    "name": "箭塔",
+    "AITreeType": 2,
+    "Rank": 1,
+    "HP": 100,
+    "LifeTime": 8,
+    "Speed": 5,
+    "RepelRe": 0,
+    "BodySize": 1,
+    "RVOLayer": 0,
+    "SkillList": [
+      1031
+    ],
+    "DropID": 0,
+    "DeadSkillId": 0,
+    "Prefab": "Tower",
+    "DeadAudio": "",
+    "DeadEffect": "",
+    "Describe": ""
+  }
+]

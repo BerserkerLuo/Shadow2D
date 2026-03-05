@@ -1,0 +1,282 @@
+[
+  {
+    "name": "Tiro0",
+    "path": "Prefabs/Role/Hero/Tiro/TiroAv0",
+    "Describe": "新手(女)",
+    "profebType": 1,
+    "preLoadCount": 2
+  },
+  {
+    "name": "Tiro1",
+    "path": "Prefabs/Role/Hero/Tiro/TiroAv1",
+    "Describe": "新手(男)",
+    "profebType": 1,
+    "preLoadCount": 2
+  },
+  {
+    "name": "Archer0",
+    "path": "Prefabs/Role/Hero/Archer/ArcherAv0",
+    "Describe": "弓箭手(女)",
+    "profebType": 1,
+    "preLoadCount": 2
+  },
+  {
+    "name": "Archer1",
+    "path": "Prefabs/Role/Hero/Archer/ArcherAv1",
+    "Describe": "弓箭手(男)",
+    "profebType": 1,
+    "preLoadCount": 2
+  },
+  {
+    "name": "Healer0",
+    "path": "Prefabs/Role/Hero/Healer/HealerAv0",
+    "Describe": "牧师(女)",
+    "profebType": 1,
+    "preLoadCount": 2
+  },
+  {
+    "name": "Healer1",
+    "path": "Prefabs/Role/Hero/Healer/HealerAv1",
+    "Describe": "牧师(男)",
+    "profebType": 1,
+    "preLoadCount": 2
+  },
+  {
+    "name": "Magician0",
+    "path": "Prefabs/Role/Hero/Magician/MagicianAv0",
+    "Describe": "魔法师(女)",
+    "profebType": 1,
+    "preLoadCount": 2
+  },
+  {
+    "name": "Magician1",
+    "path": "Prefabs/Role/Hero/Magician/MagicianAv1",
+    "Describe": "魔法师(男)",
+    "profebType": 1,
+    "preLoadCount": 2
+  },
+  {
+    "name": "Sword0",
+    "path": "Prefabs/Role/Hero/Sword/SwordAv0",
+    "Describe": "暗精灵弓箭手(女)",
+    "profebType": 1,
+    "preLoadCount": 2
+  },
+  {
+    "name": "Sword1",
+    "path": "Prefabs/Role/Hero/Sword/SwordAv1",
+    "Describe": "暗精灵弓箭手(男)",
+    "profebType": 1,
+    "preLoadCount": 2
+  },
+  {
+    "name": "TiroUIAv0",
+    "path": "Prefabs/Role/Hero/Tiro/TiroUIAv0",
+    "Describe": "新手(女)",
+    "profebType": 1,
+    "preLoadCount": 2
+  },
+  {
+    "name": "TiroUIAv1",
+    "path": "Prefabs/Role/Hero/Tiro/TiroUIAv1",
+    "Describe": "新手(男)",
+    "profebType": 1,
+    "preLoadCount": 2
+  },
+  {
+    "name": "ArcherUIAv0",
+    "path": "Prefabs/Role/Hero/Archer/ArcherUIAv0",
+    "Describe": "弓箭手(女)",
+    "profebType": 1,
+    "preLoadCount": 2
+  },
+  {
+    "name": "ArcherUIAv1",
+    "path": "Prefabs/Role/Hero/Archer/ArcherUIAv1",
+    "Describe": "弓箭手(男)",
+    "profebType": 1,
+    "preLoadCount": 2
+  },
+  {
+    "name": "HealerUIAv0",
+    "path": "Prefabs/Role/Hero/Healer/HealerUIAv0",
+    "Describe": "牧师(女)",
+    "profebType": 1,
+    "preLoadCount": 2
+  },
+  {
+    "name": "HealerUIAv1",
+    "path": "Prefabs/Role/Hero/Healer/HealerUIAv1",
+    "Describe": "牧师(男)",
+    "profebType": 1,
+    "preLoadCount": 2
+  },
+  {
+    "name": "MagicianUIAv0",
+    "path": "Prefabs/Role/Hero/Magician/MagicianUIAv0",
+    "Describe": "魔法师(女)",
+    "profebType": 1,
+    "preLoadCount": 2
+  },
+  {
+    "name": "MagicianUIAv1",
+    "path": "Prefabs/Role/Hero/Magician/MagicianUIAv1",
+    "Describe": "魔法师(男)",
+    "profebType": 1,
+    "preLoadCount": 2
+  },
+  {
+    "name": "SwordUIAv0",
+    "path": "Prefabs/Role/Hero/Sword/SwordUIAv0",
+    "Describe": "暗精灵弓箭手(女)",
+    "profebType": 1,
+    "preLoadCount": 2
+  },
+  {
+    "name": "SwordUIAv1",
+    "path": "Prefabs/Role/Hero/Sword/SwordUIAv1",
+    "Describe": "暗精灵弓箭手(男)",
+    "profebType": 1,
+    "preLoadCount": 2
+  },
+  {
+    "name": "Bee",
+    "path": "Prefabs/Role/Pet/Bee/Bee",
+    "Describe": "小蜜蜂",
+    "profebType": 1,
+    "preLoadCount": 10
+  },
+  {
+    "name": "Tower",
+    "path": "Prefabs/Role/Pet/Tower/Tower",
+    "Describe": "箭塔",
+    "profebType": 1,
+    "preLoadCount": 10
+  },
+  {
+    "name": "Skeleton1",
+    "path": "Prefabs/Role/Monster/Skeleton/Skeleton",
+    "Describe": "骷髏1",
+    "profebType": 1,
+    "preLoadCount": 25
+  },
+  {
+    "name": "Skeleton2",
+    "path": "Prefabs/Role/Monster/Skeleton2/Skeleton2",
+    "Describe": "骷髏2",
+    "profebType": 1,
+    "preLoadCount": 25
+  },
+  {
+    "name": "Zombie1",
+    "path": "Prefabs/Role/Monster/Zombie/Zombie",
+    "Describe": "僵尸1",
+    "profebType": 1,
+    "preLoadCount": 25
+  },
+  {
+    "name": "Zombie2",
+    "path": "Prefabs/Role/Monster/Zombie2/Zombie2",
+    "Describe": "僵尸2",
+    "profebType": 1,
+    "preLoadCount": 25
+  },
+  {
+    "name": "Zombie3",
+    "path": "Prefabs/Role/Monster/Zombie3/Zombie3",
+    "Describe": "僵尸3",
+    "profebType": 1,
+    "preLoadCount": 25
+  },
+  {
+    "name": "Zombie4",
+    "path": "Prefabs/Role/Monster/Zombie4/Zombie4",
+    "Describe": "僵尸4",
+    "profebType": 1,
+    "preLoadCount": 25
+  },
+  {
+    "name": "Arrow1",
+    "path": "Prefabs\\Bullet\\Arrow1",
+    "Describe": "箭",
+    "profebType": 2,
+    "preLoadCount": 10
+  },
+  {
+    "name": "Fireboll",
+    "path": "Prefabs\\Bullet\\Fireboll",
+    "Describe": "火焰球",
+    "profebType": 2,
+    "preLoadCount": 10
+  },
+  {
+    "name": "DarkBullet",
+    "path": "Prefabs\\Bullet\\DarkBullet",
+    "Describe": "黑暗法球",
+    "profebType": 2,
+    "preLoadCount": 10
+  },
+  {
+    "name": "Bullet1",
+    "path": "Prefabs\\Bullet\\Bullet1",
+    "Describe": "子弹",
+    "profebType": 2,
+    "preLoadCount": 10
+  },
+  {
+    "name": "HolyBoll",
+    "path": "Prefabs\\Bullet\\HolyBoll",
+    "Describe": "圣光法球",
+    "profebType": 2,
+    "preLoadCount": 10
+  },
+  {
+    "name": "TowerArrow",
+    "path": "Prefabs\\Bullet\\TowerArrow",
+    "Describe": "塔箭",
+    "profebType": 2,
+    "preLoadCount": 10
+  },
+  {
+    "name": "SpinKnife",
+    "path": "Prefabs\\Bullet\\SpinKnife",
+    "Describe": "旋转刀刃",
+    "profebType": 2,
+    "preLoadCount": 10
+  },
+  {
+    "name": "Weapon1",
+    "path": "Prefabs\\Weapon\\Avatar\\W1",
+    "Describe": "手枪",
+    "profebType": 3,
+    "preLoadCount": 2
+  },
+  {
+    "name": "Weapon2",
+    "path": "Prefabs\\Weapon\\Avatar\\W2",
+    "Describe": "弓",
+    "profebType": 3,
+    "preLoadCount": 2
+  },
+  {
+    "name": "Weapon3",
+    "path": "Prefabs\\Weapon\\Avatar\\W3",
+    "Describe": "霰弹枪",
+    "profebType": 3,
+    "preLoadCount": 2
+  },
+  {
+    "name": "Gold",
+    "path": "Prefabs\\Item\\Gold",
+    "Describe": "金币",
+    "profebType": 4,
+    "preLoadCount": 10
+  },
+  {
+    "name": "Exp",
+    "path": "Prefabs\\Item\\Exp",
+    "Describe": "经验",
+    "profebType": 4,
+    "preLoadCount": 10
+  }
+]
